@@ -12,7 +12,7 @@ def get_sql_connection():
   port = '5432'
   dbname = 'Inventory_system'
   user = 'postgres'
-  password = 'Sh@gufta12'
+  password = ''
 
   if __cnx is None:
     __cnx = psycopg2.connect(host=host, port=port,dbname=dbname, user=user, password=password)
